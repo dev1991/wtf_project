@@ -9,8 +9,8 @@ class SubscribersController extends AppController {
                 $subject = "Subscription successful";
                 $message = "Thanks, you have successfully subscribed to updates and notifications from WayToFun";
                 $header = 'From: WayToFun Info <info@waytofun.com>'."\r\n";
-                // mail($to, $subject, $message, $header);
-                // mail("ishu.madan@waytofun.com, ishu.madan91@gmail.com, harneh18@gmail.com","Email Subscription", "The following addess has been subscribed to  WayToFun updates: ".$to, $header );
+                mail($to, $subject, $message, $header);
+                mail("ishu.madan@waytofun.com, ishu.madan91@gmail.com, harneh18@gmail.com","Email Subscription", "The following addess has been subscribed to  WayToFun updates: ".$to, $header );
                 return;
             }
         }

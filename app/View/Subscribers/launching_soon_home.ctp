@@ -1,7 +1,7 @@
         <div class="launching_soon_container">
             <div class="launching_soon_content">
                 <img src="<?php echo $this->webroot; ?>images/logo_launching.png">
-                <p><?php var_dump($this->validationErrors); ?> Wait for us to launch, we will surely double your fun.</p>
+                <p>Wait for us to launch, we will surely double your fun.</p>
                 <p>Don’t think we are not in service. We have not yet launched our website but still we can provide you with the best holiday deals. Write to us at <a href="mailto:travel@waytofun.com">travel@waytofun.com</a>, tell us where you want to go &amp; we will send you the offers which can make your holiday super-duper fun.</p>
                 <form class="subscribe_email_form" action="<?php echo $this->here; ?>" method="post">
                     <h3>Enter your Email ID below to get notified about our launch &amp; subscribe to WTF blogs.</h3>
