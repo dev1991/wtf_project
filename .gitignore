@@ -1,7 +1,0 @@
-wp-content/cache/*
-wp-content/cache/supercache/*
-readme.html
-wp-config.php
-license.txt
-.htaccess
-*.cgi
