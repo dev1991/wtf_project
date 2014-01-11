@@ -1,0 +1,12 @@
+{
+    "lesscCommand": false,
+    "lessBaseDir": ".",
+    "outputDir": "",
+    "outputFile": "style.css", //[example.css] if left blank uses same name of .less file
+    "minify": true,
+    "minName": false,
+    "autoCompile": true,
+    "showErrorWithWindow": true,
+    "main_file": "bootstrap.less",
+    "ignorePrefixedFiles": false
+}
