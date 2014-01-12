@@ -1,3 +1,5 @@
+@import "bootstrap.less";
+
 html {
     background-color: @footerBGColor;
 }
@@ -14,6 +16,11 @@ header {
     > .container {
         position: relative;
     }
+}
+.has-error.form-group > .form-control {
+    border-color: @red_FF0026;
+    .placeholder(@red_FF0026);
+    color: @red_FF0026;
 }
 .header_logo_wrap {
     float: left;
@@ -333,6 +340,11 @@ footer {
     position: relative;
     z-index: 9999;
     margin: auto;
+    > .alert {
+        position: absolute;
+        width: 100%;
+        top: 30px;
+    }
 }
 .launching_soon_content {
     background-color: rgba(0, 0, 0, 0.7);

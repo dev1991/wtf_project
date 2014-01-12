@@ -38,6 +38,7 @@
             echo '<script type="text/javascript" src="'.$this->webroot.'js/jquery.watermark.min.js"></script>';
             echo '<script type="text/javascript" src="'.$this->webroot.'js/jquery.cycle2.swipe.min.js"></script>';
             echo '<script type="text/javascript" src="'.$this->webroot.'js/jquery.cycle2.center.min.js"></script>';
+            echo '<script type="text/javascript" src="'.$this->webroot.'js/alert.js"></script>';
             echo '<script type="text/javascript" src="'.$this->webroot.'js/html5.js"></script>';
             echo '<script type="text/javascript" src="'.$this->webroot.'js/main.js"></script>';
         ?>
