@@ -27,8 +27,8 @@
         </div>
         <ul class="social_tabs_container">
             <li><a href="https://www.facebook.com/WaytoFunWTF" class="icon-facebook" target="_blank"><span>Facebook</span></a></li>
-            <!-- <li><a href="#" class="icon-twitter"><span>Twitter</span></a></li>
-            <li><a href="#" class="icon-linkedin"><span>Linkedin</span></a></li> -->
+            <li><a href="https://twitter.com/WayToFunWTF" class="icon-twitter"><span>Twitter</span></a></li>
+            <!-- <li><a href="#" class="icon-linkedin"><span>Linkedin</span></a></li> -->
         </ul>
         <div class="cycle-slideshow launching_soon_slider_wrap" data-cycle-fx="fade" data-cycle-timeout="4000" data-cycle-slides=".background_slides" data-cycle-swipe="false" data-cycle-allow-wrap="true" data-cycle-log="false">
             <div class="background_slides" style="background:url('<?php echo $this->webroot; ?>images/slider_img1.jpg');background-size:cover;"></div>
