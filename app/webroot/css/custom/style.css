@@ -496,7 +496,7 @@ footer{background-color:#2f2f2f;height:50px}
 .subscribe_email_form>.form-group>input::-webkit-input-placeholder{color:#666}
 .subscribe_email_form>.form-group>button{float:left;margin-left:38px}
 .social_tabs_container{position:absolute;top:120px;left:0;z-index:9999;padding:0}.social_tabs_container>li{padding-bottom:5px}.social_tabs_container>li>a{display:block;width:40px;height:40px;font-size:30px;line-height:40px;color:#333;position:relative;text-align:center}.social_tabs_container>li>a>span{position:absolute;overflow:hidden;left:40px;font-family:"Istok Web",arial,sans-serif;font-weight:700;font-size:20px;line-height:40px;font-style:700;color:#fff;display:inline-block;background-color:rgba(0,0,0,0.7);width:0;-webkit-transition:all .5s cubic-bezier(0, 1.2, 1, 1.2);transition:all .5s cubic-bezier(0, 1.2, 1, 1.2)}
-.social_tabs_container>li>a:hover{text-decoration:none}.social_tabs_container>li>a:hover>span{width:auto;padding:0 20px;overflow:visible}
+.social_tabs_container>li>a:hover,.social_tabs_container>li>a:focus{text-decoration:none;outline:none}.social_tabs_container>li>a:hover>span,.social_tabs_container>li>a:focus>span{width:auto;padding:0 20px;overflow:visible}
 .social_tabs_container>li>a.icon-facebook{background-color:#3b5998}.social_tabs_container>li>a.icon-facebook:hover{background-color:#4b6598}
 .social_tabs_container>li>a.icon-twitter{background-color:#3f96cb}.social_tabs_container>li>a.icon-twitter:hover{background-color:#549ecb}
 .social_tabs_container>li>a.icon-linkedin{background-color:#0073b2}.social_tabs_container>li>a.icon-linkedin:hover{background-color:#1179b2}

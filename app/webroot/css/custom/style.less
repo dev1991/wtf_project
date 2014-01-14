@@ -415,8 +415,9 @@ footer {
                 width: 0;
                 .transition(all 0.5s cubic-bezier(0, 1.2, 1, 1.2));
             }
-            &:hover {
+            &:hover, &:focus {
                 text-decoration: none;
+                outline: none;
                 > span {
                     width: auto;
                     padding: 0 20px;
