@@ -17,7 +17,7 @@
                             <input type="text" class="form-control" placeholder="Leaving From">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control date js-date" placeholder="Departure date" disabled>
+                            <input type="text" class="form-control date js-date" placeholder="Departure date">
                         </div>
                     </div>
                 </form>
