@@ -8,15 +8,17 @@
                     <li><p>3. Now sit and relax, we will get back to you with amazing deals.</p></li>
                 </ul>
                 <form class="holiday_form">
-                    <h4>We provide best quality, best price and 100% customer satisfaction. This is the only thing we do. Rest you have to do. What? To have fun on your holiday :p .</h4>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Going To">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Leaving From">
-                    </div>
-                    <div class="form-group">
-                        <input type="date" class="form-control" placeholder="Departure date">
+                    <h4>We provide <strong>best quality</strong>, <strong>best price</strong> and <strong>100% customer satisfaction</strong>. This is the only thing we do. Rest you have to do. <strong>What?</strong> To have fun on your holiday :p .</h4>
+                    <div class="holiday_form_fields_wrap">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Going To">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Leaving From">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control date js-date" placeholder="Departure date" disabled>
+                        </div>
                     </div>
                 </form>
             </div>

@@ -438,3 +438,22 @@ footer {
 .holiday_form {
     color: @white;
 }
+.holiday_form_fields_wrap {
+    padding: 15px 40px 0;
+    margin-left: -40px;
+    > .form-group {
+        float: left;
+        margin-left: 40px;
+        width: 311px;
+        > .form-control {
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: bold;
+            color: #666;
+            .placeholder(#888);
+            &.date {
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -6,4 +6,10 @@ $(document).ready(function() {
         var wm = $(this).attr("placeholder");
         $(this).watermark(wm);
     });
+
+    $('.js-date').click(function() {
+        console.log('click');
+    });
+
+    $('.js-date').datepicker({ constrainInput: true });
 });
