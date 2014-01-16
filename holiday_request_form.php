@@ -19,6 +19,32 @@
                         <div class="form-group">
                             <input type="text" class="form-control date js-date" placeholder="Departure date">
                         </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control date" placeholder="Duration">
+                            <!-- <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </div> -->
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control date" placeholder="Rooms">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control date" placeholder="Adults (age 12+)">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control date" placeholder="Childer (age 2-11)">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control date" placeholder="Infants (age 0-2)">
+                        </div>
                     </div>
                 </form>
             </div>

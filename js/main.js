@@ -11,5 +11,5 @@ $(document).ready(function() {
         console.log('click');
     });
 
-    $('.js-date').datepicker({ constrainInput: true });
+    $('.js-date').pickadate();
 });
