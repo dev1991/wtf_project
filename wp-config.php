@@ -19,10 +19,10 @@
 define('DB_NAME', 'wtf_blog_db');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'waytofun');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'WTFproject321');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

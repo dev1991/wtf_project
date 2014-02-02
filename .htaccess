@@ -2,11 +2,15 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /wtf_blog/
+RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wtf_blog/index.php [L]
+RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+AuthType Basic
+AuthName "blog"
+AuthUserFile "/home/waytofun/.htpasswds/public_html/blog/passwd"
+require valid-user
