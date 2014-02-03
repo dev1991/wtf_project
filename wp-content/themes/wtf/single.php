@@ -15,7 +15,7 @@ get_header(); ?>
             while ( have_posts() ) : the_post();
         ?>
         <ul class="post_breadcrumb_link clearfix">
-            <li><a href="#">Home</a><span></span></li>
+            <li><a href="http://www.waytofun.com">Home</a><span></span></li>
             <li><a href="<?php echo get_site_url(); ?>">Blog</a><span></span></li>
             <li><a href="<?php echo get_site_url(); ?>">Itenaries</a><span></span></li>
             <li><?php echo the_title(); ?></li>

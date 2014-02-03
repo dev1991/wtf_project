@@ -481,8 +481,8 @@ footer{background-color:#2f2f2f;height:50px}
 .social_tabs_container>li>a.icon-twitter{background-color:#3f96cb}.social_tabs_container>li>a.icon-twitter:hover{background-color:#549ecb}
 .social_tabs_container>li>a.icon-linkedin{background-color:#0073b2}.social_tabs_container>li>a.icon-linkedin:hover{background-color:#1179b2}
 .blog_home_header>h1{font-family:"Istok Web",arial,sans-serif;font-weight:700;font-size:42px;line-height:50px;font-style:700;color:#3b5998;text-align:center;padding-top:30px;padding-bottom:30px}
-.blog_home_header>section{width:640px;margin:auto}.blog_home_header>section>a{font-size:42px;line-height:50px;float:left;width:320px;display:inline-block;height:300px;line-height:300px;text-align:center}.blog_home_header>section>a:hover,.blog_home_header>section>a:active,.blog_home_header>section>a:focus{text-decoration:none;background-color:#e5e9ed;outline:none}
-.blog_home_header>section>a.active{background-color:#e5e9ed}
+.blog_home_header>section{width:640px;margin:auto}.blog_home_header>section>a{font-size:42px;line-height:50px;float:left;width:320px;display:inline-block;height:80px;line-height:80px;text-align:center}.blog_home_header>section>a:hover,.blog_home_header>section>a:active,.blog_home_header>section>a:focus{text-decoration:none;background-color:#d3d3d3;outline:none}
+.blog_home_header>section>a.active{background-color:#e5e9ed;border:1px solid #e04343;border-bottom:none}
 .post_breadcrumb_link{padding-left:0;padding-top:30px}.post_breadcrumb_link>li{float:left;color:#a1a2a3;font-size:16px;line-height:20px;padding-right:10px}.post_breadcrumb_link>li>a{color:#a1a2a3;font-size:16px;line-height:20px}.post_breadcrumb_link>li>a:hover,.post_breadcrumb_link>li>a:focus{text-decoration:underline}
 .post_breadcrumb_link>li>span{border-left:10px solid #000;border-top:5px solid transparent;border-bottom:5px solid transparent;margin-left:10px;display:inline-block;width:10px;height:10px;vertical-align:middle}
 .post_content_wrap{padding-bottom:50px}.post_content_wrap>h2{margin-bottom:20px;margin-top:30px}

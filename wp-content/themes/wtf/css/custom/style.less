@@ -1,3 +1,5 @@
+@import "bootstrap.less";
+
 html {
     background-color: @footerBGColor;
 }
@@ -448,16 +450,18 @@ footer {
             float: left;
             width: 320px;
             display: inline-block;
-            height: 300px;
-            line-height: 300px;
+            height: 80px;
+            line-height: 80px;
             text-align: center;
             &:hover, &:active, &:focus {
                 text-decoration: none;
-                background-color: @gray_E5E9ED;
+                background-color: #D3D3D3;
                 outline: none;
             }
             &.active {
                 background-color: @gray_E5E9ED;
+                border: 1px solid @red_E04343;
+                border-bottom: none;
             }
         }
     }
