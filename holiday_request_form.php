@@ -10,6 +10,7 @@
             <form class="holiday_form">
                 <h4>We provide <strong>best quality</strong>, <strong>best price</strong> and <strong>100% customer satisfaction</strong>. This is the only thing we do. Rest you have to do. <strong>What?</strong> To have fun on your holiday :p .</h4>
                 <div class="holiday_form_fields_wrap">
+                    <h4>Trip Details</h4>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Going To">
                     </div>
@@ -20,7 +21,7 @@
                         <input type="text" class="form-control date js-date" placeholder="Departure date">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control date" placeholder="Duration">
+                        <input type="text" class="form-control" placeholder="Duration">
                         <!-- <div class="btn-group">
                             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span>
                             </button>
@@ -34,16 +35,16 @@
                         </div> -->
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control date" placeholder="Rooms">
+                        <input type="text" class="form-control" placeholder="Rooms">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control date" placeholder="Adults (age 12+)">
+                        <input type="text" class="form-control" placeholder="Adults (age 12+)">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control date" placeholder="Childer (age 2-11)">
+                        <input type="text" class="form-control" placeholder="Childer (age 2-11)">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control date" placeholder="Infants (age 0-2)">
+                        <input type="text" class="form-control" placeholder="Infants (age 0-2)">
                     </div>
                 </div>
             </form>
