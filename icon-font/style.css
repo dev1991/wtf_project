@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icon-font';
-	src:url('fonts/icon-font.eot');
-	src:url('fonts/icon-font.eot?#iefix') format('embedded-opentype'),
-		url('fonts/icon-font.ttf') format('truetype'),
-		url('fonts/icon-font.woff') format('woff'),
-		url('fonts/icon-font.svg#icon-font') format('svg');
+	src:url('fonts/icon-font.eot?-a1suzf');
+	src:url('fonts/icon-font.eot?#iefix-a1suzf') format('embedded-opentype'),
+		url('fonts/icon-font.woff?-a1suzf') format('woff'),
+		url('fonts/icon-font.ttf?-a1suzf') format('truetype'),
+		url('fonts/icon-font.svg?-a1suzf#icon-font') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -46,4 +46,34 @@
 }
 .icon-linkedin:before {
 	content: "\e605";
+}
+.icon-home:before {
+	content: "\e607";
+}
+.icon-share:before {
+	content: "\e608";
+}
+.icon-calendar:before {
+	content: "\e609";
+}
+.icon-globe:before {
+	content: "\e60a";
+}
+.icon-history:before {
+	content: "\e60b";
+}
+.icon-location:before {
+	content: "\e60c";
+}
+.icon-profile:before {
+	content: "\e60d";
+}
+.icon-phone:before {
+	content: "\e60e";
+}
+.icon-envelope:before {
+	content: "\e60f";
+}
+.icon-star:before {
+	content: "\e610";
 }

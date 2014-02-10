@@ -14,10 +14,10 @@
                         <h4 class="holiday_form_group_head">Trip Details</h4>
                         <div class="holiday_form_fields_wrap clearfix">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Going To">
+                                <input type="text" class="form-control" placeholder="From">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Leaving From">
+                                <input type="text" class="form-control" placeholder="To">
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control date js-date" placeholder="Departure date">
