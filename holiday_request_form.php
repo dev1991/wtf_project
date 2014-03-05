@@ -15,15 +15,19 @@
                         <div class="holiday_form_fields_wrap clearfix">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="From">
+                                <span class="icon-home"></span>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="To">
+                                <span class="icon-share"></span>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control date js-date" placeholder="Departure date">
+                                <span class="icon-calendar"></span>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Duration">
+                                <span class="icon-history"></span>
                                 <!-- <div class="btn-group">
                                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span>
                                     </button>
@@ -43,7 +47,7 @@
                                 <input type="text" class="form-control" placeholder="Adults (age 12+)">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Childer (age 2-11)">
+                                <input type="text" class="form-control" placeholder="Children (age 2-11)">
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Infants (age 0-2)">
@@ -58,18 +62,23 @@
                         <div class="holiday_form_fields_wrap clearfix">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Name">
+                                <span class="icon-profile"></span>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Contact Number">
+                                <span class="icon-phone"></span>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Email ID">
+                                <span class="icon-envelope"></span>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Country">
+                                <span class="icon-globe"></span>
                             </div>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="City">
+                                <span class="icon-location"></span>
                             </div>
                         </div>
                     </section>

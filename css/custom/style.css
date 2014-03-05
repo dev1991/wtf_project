@@ -662,15 +662,16 @@ footer{background-color:#2f2f2f;height:50px}
 .holiday_form .cycle-prev,.holiday_form .cycle-next{font-size:33px;line-height:60px;width:33px}
 .holiday_form .cycle-prev{left:-20px}
 .holiday_form .cycle-next{right:-20px}
-.holiday_form_fields_wrap .form-group{float:left;margin-left:40px;width:311px}.holiday_form_fields_wrap .form-group>.form-control{font-size:18px;line-height:24px;font-weight:bold;color:#666}.holiday_form_fields_wrap .form-group>.form-control:-moz-placeholder{color:#888}
-.holiday_form_fields_wrap .form-group>.form-control::-moz-placeholder{color:#888}
-.holiday_form_fields_wrap .form-group>.form-control:-ms-input-placeholder{color:#888}
-.holiday_form_fields_wrap .form-group>.form-control::-webkit-input-placeholder{color:#888}
-.holiday_form_fields_wrap .form-group>.form-control:-moz-placeholder{color:#888;opacity:1;filter:alpha(opacity=100)}
-.holiday_form_fields_wrap .form-group>.form-control::-moz-placeholder{color:#888;opacity:1;filter:alpha(opacity=100)}
-.holiday_form_fields_wrap .form-group>.form-control:-ms-input-placeholder{color:#888}
-.holiday_form_fields_wrap .form-group>.form-control::-webkit-input-placeholder{color:#888}
+.holiday_form_fields_wrap .form-group{float:left;margin-left:40px;width:311px;position:relative}.holiday_form_fields_wrap .form-group>.form-control{font-size:18px;line-height:24px;font-weight:normal;color:#000;padding:6px 42px 6px 12px}.holiday_form_fields_wrap .form-group>.form-control:-moz-placeholder{color:#707070}
+.holiday_form_fields_wrap .form-group>.form-control::-moz-placeholder{color:#707070}
+.holiday_form_fields_wrap .form-group>.form-control:-ms-input-placeholder{color:#707070}
+.holiday_form_fields_wrap .form-group>.form-control::-webkit-input-placeholder{color:#707070}
+.holiday_form_fields_wrap .form-group>.form-control:-moz-placeholder{color:#707070;opacity:1;filter:alpha(opacity=100)}
+.holiday_form_fields_wrap .form-group>.form-control::-moz-placeholder{color:#707070;opacity:1;filter:alpha(opacity=100)}
+.holiday_form_fields_wrap .form-group>.form-control:-ms-input-placeholder{color:#707070}
+.holiday_form_fields_wrap .form-group>.form-control::-webkit-input-placeholder{color:#707070}
 .holiday_form_fields_wrap .form-group>.form-control.date{cursor:pointer}
+.holiday_form_fields_wrap .form-group>span{color:#707070;font-size:20px;position:absolute;right:7px;top:6px}
 .holiday_form_fields_wrap.three_fields .form-group{width:194px}
 .holiday_form_group_head{text-align:center;font-family:"Istok Web",arial,sans-serif;font-weight:400;font-size:20px;line-height:26px;font-style:400;margin:0;padding:20px 0 10px}
 .holiday_form_slider{height:300px;width:100%}.holiday_form_slider>section{width:100%;height:300px}

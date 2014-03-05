@@ -459,15 +459,24 @@ footer {
         float: left;
         margin-left: 40px;
         width: 311px;
+        position: relative;
         > .form-control {
             font-size: 18px;
             line-height: 24px;
-            font-weight: bold;
-            color: #666;
-            .placeholder(#888);
+            font-weight: normal;
+            color: #000;
+            .placeholder(#707070);
+            padding: 6px 42px 6px 12px;
             &.date {
                 cursor: pointer;
             }
+        }
+        > span {
+            color: #707070;
+            font-size: 20px;
+            position: absolute;
+            right: 7px;
+            top: 6px;
         }
     }
     &.three_fields {
